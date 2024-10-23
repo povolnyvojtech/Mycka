@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Mycka/static/css/main.1dbcaa5f.css",
-    "main.js": "/Mycka/static/js/main.e2d77a04.js",
+    "main.css": "/Mycka/static/css/main.205ef2ff.css",
+    "main.js": "/Mycka/static/js/main.564c6810.js",
     "index.html": "/Mycka/index.html",
-    "main.1dbcaa5f.css.map": "/Mycka/static/css/main.1dbcaa5f.css.map",
-    "main.e2d77a04.js.map": "/Mycka/static/js/main.e2d77a04.js.map"
+    "main.205ef2ff.css.map": "/Mycka/static/css/main.205ef2ff.css.map",
+    "main.564c6810.js.map": "/Mycka/static/js/main.564c6810.js.map"
   },
   "entrypoints": [
-    "static/css/main.1dbcaa5f.css",
-    "static/js/main.e2d77a04.js"
+    "static/css/main.205ef2ff.css",
+    "static/js/main.564c6810.js"
   ]
 }
