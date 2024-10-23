@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate, Routes, Route } from 'react-router-dom'; // Přidáme Routes a Route pro definování cest
+import { Routes, Route, useNavigate } from 'react-router-dom';
 import './App.css';
 import Main from './Main'; // Importujeme komponentu Main
 
