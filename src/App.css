@@ -1,0 +1,60 @@
+.App {
+  display: flex;
+  justify-content: center; /* Horizontální zarovnání */
+  align-items: center;     /* Vertikální zarovnání */
+  height: 100vh;           /* Výška celého viewportu */
+  background-color: #f0f0f0; /* Volitelná barva pozadí */
+}
+
+.user_input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 100%;  /* Zajišťuje plnou šířku na mobilu */
+  max-width: 300px;
+  margin-bottom: 10%;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Responzivní design pro mobilní zařízení */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px; /* Trochu prostoru kolem okraje na menších obrazovkách */
+  }
+
+  input {
+    font-size: 14px; /* Menší písmo pro mobil */
+    padding: 8px;    /* Menší padding */
+  }
+
+  label {
+    font-size: 16px; /* Mírně menší label text */
+  }
+}
