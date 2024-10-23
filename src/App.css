@@ -46,7 +46,8 @@ button:hover {
 /* Responzivní design pro mobilní zařízení */
 @media (max-width: 768px) {
   .App {
-    padding: 10px; /* Trochu prostoru kolem okraje na menších obrazovkách */
+    padding: 10px;
+    height: 100vh;
   }
 
   input {

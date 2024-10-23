@@ -9,6 +9,9 @@ function App() {
 
   const handleButtonClick = () => {
     if (name) {
+      localStorage.setItem('username', name);
+      const username = localStorage.getItem('username');
+      console.log(username);
       navigate(`/main`, { state: { name } }); // Předáme hodnotu inputu přes state
     }
   };
